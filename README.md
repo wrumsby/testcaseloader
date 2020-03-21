@@ -11,7 +11,7 @@ Files are:
 ## Installation
 
 ```
-npm install --save-dev testcaseloader
+npm install --save-dev @wrumsby/testcaseloader
 ```
 
 ## Usage

@@ -17,9 +17,9 @@ export class TestCaseLoader {
 
   constructor(directory?: string) {
     if (directory == null) {
-      this.directory = join(resolve(__dirname), '../testcases');
+      this.directory = join(process.cwd(), 'testcases');
     } else {
-      this.directory = join(resolve(__dirname), directory);
+      this.directory = join(resolve(process.cwd()), directory);
     }
   }
 

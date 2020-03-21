@@ -14,7 +14,7 @@ describe('TestCaseLoader', () => {
     });
 
     it('should load test cases when a directory is passed to the constructor', () => {
-      const loader = new TestCaseLoader('../testcases');
+      const loader = new TestCaseLoader('./testcases');
 
       const actual = loader.load('simple');
 
