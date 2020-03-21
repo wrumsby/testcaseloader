@@ -1,5 +1,5 @@
 {
-  "name": "testcaseloader",
+  "name": "@wrumsby/testcaseloader",
   "version": "1.0.1",
   "description": "Small utility to load test cases from files",
   "main": "dist/index.js",
