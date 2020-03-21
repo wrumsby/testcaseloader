@@ -11,6 +11,7 @@
     "npm": ">=5.6.0"
   },
   "scripts": {
+    "prepublishOnly": "npm run lint && npm test && npm run build",
     "build": "tsc",
     "lint": "eslint --ext ts -f stylish .",
     "test": "jest"
