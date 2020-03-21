@@ -1,6 +1,6 @@
 {
   "name": "@wrumsby/testcaseloader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Small utility to load test cases from files",
   "main": "dist/index.js",
   "files": [
